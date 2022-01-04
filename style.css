@@ -61,3 +61,21 @@ h1 {
   background-repeat: no-repeat;
   background-position: left center;
 }
+
+#web-exp {
+  border-left: 7px solid;
+  border-image: linear-gradient(orange, tomato);
+  border-image-slice: 1;
+}
+
+#web-exp2 {
+  border-left: 7px solid;
+  border-image: linear-gradient(rgb(32, 17, 233), rgb(13, 199, 231));
+  border-image-slice: 1;
+}
+
+footer p {
+  text-align: center;
+  color: rgb(109, 108, 108);
+  margin-bottom: 10px;
+}
